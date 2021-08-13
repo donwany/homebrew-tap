@@ -26,7 +26,7 @@
 # #   end
 # end
 
-class Kubepfm < Formula
+class Aero < Formula
   desc "A simple weather CLI tool!."
   homepage "https://github.com/donwany/aero"
   url "https://github.com/donwany/aero/archive/refs/tags/v1.0.0.tar.gz"
