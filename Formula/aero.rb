@@ -37,7 +37,7 @@ class Aero < Formula
   def install
     ENV["GOPATH"] = buildpath
     ENV["GO111MODULE"] = "on"
-    ENV["GOFLAGS"] = "-mod=vendor"
+    ENV["GOFLAGS"] = "-mod=readonly"
     ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
     (buildpath/"src/github.com/donwany/aero").install buildpath.children
     cd "src/github.com/donwany/aero" do
