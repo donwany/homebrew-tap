@@ -10,7 +10,7 @@ class Aero < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/donwany/aero/blob/main/aero_v0.1.1-next_Darwin_arm64.tar.gz"
-    #sha256 "4c495b586633312273d8b81403424fad71bf3b0d5f73fbeaf774a8f476ad77fc"
+    sha256 "58213b74d682d7a6afc7ad9543f41516fde754c99e13d899bdab701b862d2be1"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/donwany/aero/blob/main/aero_v0.1.1-next_Linux_arm64.tar.gz"
