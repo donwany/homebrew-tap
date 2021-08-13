@@ -16,4 +16,6 @@ $ wget https://github.com/donwany/aero/blob/main/aero_v0.1.1-next_Darwin_arm64.t
 
 $ wget https://github.com/donwany/aero/archive/refs/tags/v1.0.0.tar.gz
 
+shasum -a 256 v1.0.0.tar.gz 
+
 ```

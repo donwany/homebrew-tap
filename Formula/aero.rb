@@ -30,7 +30,7 @@ class Aero < Formula
   desc "A simple weather CLI tool!."
   homepage "https://github.com/donwany/aero"
   url "https://github.com/donwany/aero/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "58213b74d682d7a6afc7ad9543f41516fde754c99e13d899bdab701b862d2be1"
+  sha256  "530f342a5ce35ca0748c7d6538181f815f945ec998ee2cda14e77df3e3637ce1"
 
   depends_on "go"
 
