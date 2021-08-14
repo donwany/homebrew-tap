@@ -20,8 +20,7 @@ shasum -a 256 v1.0.0.tar.gz
 
 ```
 ```shell
-brew tap donwany/tab
-brew install aero
+brew tap donwany/tab && brew install aero
 aero weather --city Dallas --apikey $APIKEY
 
 Response Status:  200 OK
